@@ -18,6 +18,8 @@ https://www.jetbrains.com/pycharm/
 ### Создать новый проект в PyCharm - клон репозитория
 Запустить PyCharm (все другие проекты закрыть).
 
+Важно: на этом этапе или при переносе проекта в другой репозиторий нужно будет авторизоваться на github в PyCharm (следовать инструкциям внутри программы, обычно авторизация проиходит через перенаправление на страницу сайта в браузере).
+
 ![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/f4f21e98-fad4-4b12-ab51-071d80a3fb7a)
 
 ![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/ce492304-ecd3-4fee-92f2-59d1e9cdb2d2)
@@ -41,6 +43,38 @@ https://www.jetbrains.com/pycharm/
 В проводнике Windows папка с проектом будет выглядеть так:
 
 ![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/45e35ae4-7cbc-4882-aebb-8df2367b6a84)
+
+### Перенос проекта в новый репозиотрий на github
+Выбрать в меню публицкацию проекта в новый репозиторй github (чтобы не сохранять изменения в шаблонный проект).
+
+В предупреждении будет указано, что проект уже опубликован, но нажимаем "Все равно опубликовать".
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/190f6432-65ee-469e-9634-e61493976154)
+
+Нужно залогиниться на github.
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/954bcd7d-9bd6-44a7-bc47-a6b2de0d8122)
+
+В открывшемся браузере нажать кнопку авторизации. Если в браузере не сохранены логин и пароль для github, то ввести их вручную.
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/382082c0-06e0-4866-aa7f-c1ce45242b80)
+
+В случае успеха появится надпись.
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/d8e2d612-08ba-4ca8-b1d7-7fff1d873b96)
+
+После этого можно вернуться к проекту в PyCharm.
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/c92c7939-9ad5-485a-9456-8a34c9087c04)
+
+Имя проекта останется прежним, а на github будет создан новый репозиторий с заданным именем.
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/8c55363e-f726-4bfa-a39a-fc2ecfaba214)
+
+
+
+
+
 
 ### Как в локальном проекте установить новые библиотеки и обновить файл requirements.txt с зависимостями
 В свойствах проекта нажать +
