@@ -67,7 +67,7 @@ https://www.jetbrains.com/pycharm/
 
 ![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/c92c7939-9ad5-485a-9456-8a34c9087c04)
 
-Имя проекта останется прежним, а на github будет создан новый репозиторий с заданным именем.
+Имя проекта останется прежним, а на github будет создан новый репозиторий с заданным именем. Теперь проект привязан к новому репозиторию.
 
 ![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/8c55363e-f726-4bfa-a39a-fc2ecfaba214)
 
