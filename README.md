@@ -42,6 +42,40 @@ https://www.jetbrains.com/pycharm/
 
 ![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/45e35ae4-7cbc-4882-aebb-8df2367b6a84)
 
+### Как в локальном проекте установить новые библиотеки и обновить файл requirements.txt с зависимостями
+В свойствах проекта нажать +
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/4fe6e6af-f3cc-47e7-9a5c-c1adf64891b9)
+
+Найти и установить нужную библиотеку (если поиск сразу не сработал, нажать кнопку с обновлением списка). Например, для работы с таблицами Excel
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/7091937f-e4c2-4a51-bdf4-05e7e0e64f14)
+
+После установки всех необходимых библиотек нужно закрыть окно свойств проекта и открыть терминал (значок внизу или найти пункт в меню).
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/bedd1b94-3011-4625-a741-4dc0d2b23f8b)
+
+В скобках перед путем к проекту должно быть название виртуального окружения. Тогда список зависимостей будет корректно выгружен для текущего проекта.
+
+(venv) C:\project_1>
+
+Выполнить команду:
+
+pip freeze > requirements.txt
+
+Файл перепишется с учетом актуальных библиотек. Далее его можно будет закоммитить в репозиторий.
+
+![image](https://github.com/ekviro/template_python_pycharm/assets/46021781/92269424-b4a4-43bc-908c-8b600c990d44)
+
+
+
+
+
+
+
+
+
+
 
 
 
